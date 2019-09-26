@@ -1,0 +1,1 @@
+As part of the HTML module with MCR codes, we have been asked to create an about me webpage using html to begin with then to style with css after. 
