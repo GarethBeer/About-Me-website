@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Railway");
+
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+.intro {
+    height:100%;
+    width:100%;
+    margin:auto;
+    background: url("images/lakemountains.jpg") no-repeat 50% 50%;
+    display:table;
+    top:0%;
+    background-size:cover;
+}
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: lobster, monospace;
+    color:white;
+    margin-top: 50px;
+    margin-bottom: 0%;
+}
+
+h2 {
+    font-family: lobster;
+    font-style: italic;
+    color:black;
+}
+
+nav {
+    text-align:center;
+}
+
+
+a:link {
+    color:darkblue;
+}
+
+a:hover {
+    color:rgb(253, 252, 253);
+}
+
+p {
+    text-indent: 20px;
+    font-family:;
+}
+
+h5 {
+    margin-bottom:2px;
+}
