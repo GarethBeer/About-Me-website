@@ -20,7 +20,7 @@ html, body {
 h1 {
     text-align: center;
     font-size: 100px;
-    font-family: lobster, monospace;
+    font-family: Oswald, monospace;
     color:white;
     margin-top: 50px;
     margin-bottom: 0%;
@@ -30,6 +30,7 @@ h2 {
     font-family: lobster;
     font-style: italic;
     color:black;
+    text-align:center;
 }
 
 nav {
@@ -52,4 +53,32 @@ p {
 
 h5 {
     margin-bottom:2px;
+}
+#climbingcontainer {
+    display:table-row;
+    height:500px;
+}
+
+#box1 {
+    float:left;
+    
+    height: 50%;
+    width:50%;
+}
+#box2 {
+    
+    float:right;
+    
+    height: 50%;
+    width:50%;
+}
+#climbingpic {
+   border-radius: 20px;
+    padding:10px;
+    width:380px;
+    height:360px;
+}
+
+blockquote {
+    font-style:italic;
 }
