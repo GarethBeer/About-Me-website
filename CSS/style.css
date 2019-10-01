@@ -17,6 +17,8 @@ html, body {
     top:0%;
     background-size:cover;
 }
+
+/***************************** Headings **************************/
 h1 {
     text-align: center;
     font-size: 100px;
@@ -33,6 +35,14 @@ h2 {
     text-align:center;
 }
 
+h5 {
+    margin-bottom:2px;
+}
+
+h4 {
+    text-align:center;
+}
+/************************************* Navigation & Links *****************/
 nav {
     text-align:center;
 }
@@ -46,14 +56,24 @@ a:hover {
     color:rgb(253, 252, 253);
 }
 
+/********************************* Text *************************/
+
 p {
     text-indent: 20px;
-    font-family:;
+    
 }
 
-h5 {
-    margin-bottom:2px;
+blockquote {
+    font-style:italic;
 }
+
+.sections {
+
+    border: 10px solid white;
+    margin:50px;
+}
+/************************************************ Flex box containers *****************/
+
 .containerC {
     display:flex;
     justify-content: space-evenly;
@@ -63,33 +83,36 @@ h5 {
     
 }
 .box2 {
-
+    width:300px;
     padding:15px;
 }
 
-#climbingpic {
-   border-radius: 20px;
-    padding:10px;
-    width:380px;
-    height:360px;
-}
+
 .containerS {
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .box3 {
-
+ 
 }
 
 .box4 {
     order:-1;
+    width:300px;
 }
+
+
+/********************************* Images ***************************************/
 #skipic {
     border-radius: 20px;
     padding:10px;
-    width:380px;
-    height:360px;
+    width:400px;
+    height:400px;
 }
-blockquote {
-    font-style:italic;
-}
+
+#climbingpic {
+    border-radius: 20px;
+     padding:10px;
+     width:400px;
+     height:400px;
+ }
