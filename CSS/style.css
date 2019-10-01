@@ -54,31 +54,42 @@ p {
 h5 {
     margin-bottom:2px;
 }
-#climbingcontainer {
-    display:table-row;
-    height:500px;
+.containerC {
+    display:flex;
+    justify-content: space-evenly;
 }
 
-#box1 {
-    float:left;
+.box1 {
     
-    height: 50%;
-    width:50%;
 }
-#box2 {
-    
-    float:right;
-    
-    height: 50%;
-    width:50%;
+.box2 {
+
+    padding:15px;
 }
+
 #climbingpic {
    border-radius: 20px;
     padding:10px;
     width:380px;
     height:360px;
 }
+.containerS {
+    display:flex;
+    justify-content: center;
+}
+.box3 {
 
+}
+
+.box4 {
+    order:-1;
+}
+#skipic {
+    border-radius: 20px;
+    padding:10px;
+    width:380px;
+    height:360px;
+}
 blockquote {
     font-style:italic;
 }
