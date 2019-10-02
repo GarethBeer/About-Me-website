@@ -7,6 +7,7 @@ html, body {
     padding:0;
     height:100%;
     width:100%;
+    background-color:whitesmoke;
 }
 .intro {
     height:100%;
@@ -58,8 +59,9 @@ a:hover {
 
 /********************************* Text *************************/
 
-p {
+p li {
     text-indent: 20px;
+    font-size: 20px;
     
 }
 
@@ -69,8 +71,24 @@ blockquote {
 
 .sections {
 
-    border: 10px solid white;
+    border: 10px solid whitesmoke;
     margin:50px;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th  {
+    height:70px;
+    text-align:center;
+}
+
+td {
+    padding:10px;
+}
+tr:hover {
+    background-color:lightcoral;
 }
 /************************************************ Flex box containers *****************/
 
@@ -83,7 +101,7 @@ blockquote {
     
 }
 .box2 {
-    width:300px;
+    width:500px;
     padding:15px;
 }
 
@@ -91,6 +109,7 @@ blockquote {
 .containerS {
     display:flex;
     justify-content: space-evenly;
+    margin-bottom:100px;
 }
 .box3 {
  
