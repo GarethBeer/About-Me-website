@@ -73,14 +73,16 @@ p, ul {
 
 .sections {
 
-    border: 10px solid whitesmoke;
+    border: 20px solid whitesmoke;
     border-radius: 10px;
-    margin:50px;
-    padding:10px;
+    margin:80px;
+    padding:20px;
+    
 }
 
 table, th, td {
     border: 2px solid black;
+    color:black;
 }
 
 th  {
@@ -134,7 +136,7 @@ footer {
 }
 
 
-/********************************* Images ***************************************/
+/********************************* Images & logos ***************************************/
 #skipic {
     border-radius: 20px;
     padding:10px;
