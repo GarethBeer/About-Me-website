@@ -17,15 +17,17 @@ html, body {
     display:table;
     top:0%;
     background-size:cover;
+    
 }
+
 
 /***************************** Headings **************************/
 h1 {
     text-align: center;
     font-size: 100px;
-    font-family: Oswald, monospace;
+    font-family: lobster, monospace;
     color:white;
-    margin-top: 50px;
+    margin-top: 450px;
     margin-bottom: 0%;
 }
 
@@ -49,22 +51,35 @@ h4 {
 }
 /************************************* Navigation & Links *****************/
 nav {
-    text-align:center;
+    
+    display:flex;
+    justify-content: center;
+    margin-top:30px; 
 }
 
 
-a:link {
-    color:rgba(197, 14, 14, 0.726);
+section a:link {
+    text-decoration-line: none;
 }
 
-a:hover {
-    color:rgb(253, 252, 253);
+nav a {
+    margin-left:20px;
+    text-decoration-line: none;
+    font-size: 25px;
+    font-family: lobster;
+    color:black;
 }
 
+nav a:hover {
+    font-size: 30px;
+}
 
+.navigation:hover {
+    font-size:50px;
+}
 /********************************* Text *************************/
 
-p, ul {
+p, ul, td {
     text-indent: 20px;
     font-size: 17px;
     line-height:25px;
@@ -94,6 +109,7 @@ th  {
 
 td {
     padding:10px;
+    text-align:center;
 }
 tr:hover {
     background-color:lightcoral;
@@ -132,6 +148,12 @@ footer {
     width:500px;
 }
 
+#containeraboutme {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+}
 
 /********************************* Images & logos ***************************************/
 #skipic {
@@ -171,13 +193,30 @@ footer {
     padding: 30px;
  }
 
+ #hothampic {
+     height: 350px;
+     width: 350px;
+     border-radius:200px;
+     border:5px solid black;
+     
+    
+ }
 
-/*
+
  .btn {
-     background-color: whitesmoke;
-     padding:2px;
+     background-color: white;
+     padding:10px;
      border-radius: 5px;
      opacity: 0.7;
-     font-size:15px;
+     font-size:30px;
+     color:black;
+     text-decoration-line: none;
+     margin: 10px;
+     opacity: 0.2;
+     font-family: lobster;
  }
- */
+ 
+ .btn:hover {
+     opacity: 1;
+     box-shadow:10px 10px;
+ }
