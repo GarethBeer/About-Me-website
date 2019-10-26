@@ -9,7 +9,7 @@ function formSub() {
 
 
 
-document.getElementById("submit").addEventListener("click", formSub, false);
+document.getElementById("submit").addEventListener("click", formSub(), true);
 
 
 
